@@ -1,0 +1,38 @@
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.camera-box {
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+    align-items: center;
+
+}
+
+video {}
+
+
+.heading {
+    background-color: rgba(72, 81, 255, 0.701);
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_heading {
+    color: rgba(255, 255, 255, 0.797);
+    font-size: 2rem;
+
+}

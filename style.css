@@ -13,21 +13,21 @@ body {
     width: 100vw;
     height: 93vh;
     display: flex;
-    justify-content: left;
-    padding-left: 10px;
     align-items: center;
+    justify-content: left;
 
 }
 
 video {}
-
 
 .heading {
     background-color: rgba(72, 81, 255, 0.701);
     width: 100vw;
     height: 7vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
     align-items: center;
 }
 
@@ -35,4 +35,15 @@ video {}
     color: rgba(255, 255, 255, 0.797);
     font-size: 2rem;
 
+}
+
+#cameraSelect {
+    width: auto;
+    height: 5vh;
+    padding: 2px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(72, 81, 255, 0.701);
+    color: #fff;
 }
